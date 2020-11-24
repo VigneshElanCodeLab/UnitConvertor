@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Aux from '../../hoc/aux';
 import classes from './length.module.css';
 import { Button } from 'react-bootstrap';
 import Accordion from '@material-ui/core/Accordion';
@@ -118,7 +117,7 @@ function Length() {
   };
   return (
 
-    <Aux >
+    <  >
       <div >
         <Accordion  >
           <AccordionSummary
@@ -195,7 +194,7 @@ function Length() {
 
       </div>
 
-    </Aux>
+    </ >
 
   );
 

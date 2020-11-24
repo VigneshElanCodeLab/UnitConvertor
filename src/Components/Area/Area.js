@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Aux from '../../hoc/aux';
 import classes from './Area.module.css';
 import { Button } from 'react-bootstrap';
 import Accordion from '@material-ui/core/Accordion';
@@ -264,7 +263,7 @@ function Area() {
   };
   return (
 
-    <Aux >
+    < >
       <div >
         <Accordion  >
           <AccordionSummary
@@ -341,7 +340,7 @@ function Area() {
 
       </div>
 
-    </Aux>
+    </>
 
   );
 
